@@ -1,9 +1,8 @@
 .App {
   text-align: center;
 }
-.main{
+#main{
   display: flex;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -32,4 +31,23 @@
   margin: 0 auto;
   flex-direction:column;
   min-height:100vh;
+}
+.box{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(15, 150, 60);
+}
+.exit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  flex-wrap: wrap;
 }
