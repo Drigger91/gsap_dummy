@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Gsap from './components/gsap';
 
 function App() {
   return (
-    <div>
-      Hello world
+    <div className='main'>
+     <Gsap/>
     </div>
   );
 }
